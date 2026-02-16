@@ -386,4 +386,18 @@ transform:translate(-50%,-50%);
   }
 
 }
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
 
