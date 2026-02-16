@@ -190,7 +190,7 @@ transform:translate(-50%,-50%);
 
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background: #fffdfd;
   display: flex;
   justify-content: center;
@@ -399,5 +399,53 @@ nav a {
   color: black;
   font-weight: 600;
 }
+/* ========================= */
+/* 📱 MOBILE FIX */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  /* Hero Section Fix */
+  .hero {
+    height: auto;
+    padding: 100px 20px 60px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* Cutout image */
+  .cutout {
+    position: relative;
+    width: 220px;
+    margin: 30px auto;
+  }
+
+  /* Section spacing */
+  section {
+    padding: 70px 20px;
+  }
+
+  /* Cards layout */
+  .work-grid,
+  .certificate-grid,
+  .activities-grid,
+  .hobby-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Reduce big background text */
+  .bg-text {
+    font-size: 60px;
+  }
+
+}
+
 
 
