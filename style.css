@@ -287,4 +287,51 @@ transform:translate(-50%,-50%);
   color: #ff6fa5;
   text-align: center;
   margin-top: 20px;
+
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVE FIX */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .bg-text {
+    font-size: 70px;
+    letter-spacing: 5px;
+  }
+
+  .cutout {
+    position: relative;
+    width: 250px;
+    bottom: auto;
+    right: auto;
+    margin: 30px auto 0 auto;
+    transform: rotate(0deg);
+    z-index: 1;
+  }
+
+  .hero-content {
+    z-index: 2;
+  }
+
+  .main-name {
+    font-size: 32px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 12px 22px;
+    font-size: 14px;
+  }
+
 }
