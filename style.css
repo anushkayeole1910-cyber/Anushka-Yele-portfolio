@@ -195,7 +195,7 @@ transform:translate(-50%,-50%);
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .bg-text {
@@ -446,6 +446,11 @@ nav a {
   }
 
 }
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 
 
 
