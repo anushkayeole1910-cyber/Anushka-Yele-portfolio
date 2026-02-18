@@ -612,6 +612,14 @@ header {
   color: black;
   font-size: 18px;
 }
+@media (max-width: 768px) {
+
+  .heart {
+    display: none;
+  }
+
+}
+
 
 
 
