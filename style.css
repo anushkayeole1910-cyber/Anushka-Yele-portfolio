@@ -450,6 +450,45 @@ html, body {
   overflow-x: hidden;
   overflow-y: auto;
 }
+/* ================= MOBILE FIX ================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 12px 20px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;      /* allows wrapping */
+    gap: 12px;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .heart {
+    display: none;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .hero {
+    padding-top: 120px;
+  }
+
+  .main-name {
+    font-size: 34px;
+  }
+
+  .tagline {
+    font-size: 15px;
+  }
+
+}
+
 
 
 
