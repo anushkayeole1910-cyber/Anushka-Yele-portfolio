@@ -5,8 +5,9 @@ glow.style.left = e.pageX+"px";
 glow.style.top = e.pageY+"px";
 
 });
-<script>
+// Hamburger menu toggle
 function toggleMenu() {
-  document.querySelector(".nav-links").classList.toggle("active");
+  const menu = document.getElementById("mobileMenu");
+  menu.classList.toggle("active");
 }
-</script>
+
